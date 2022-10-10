@@ -28,7 +28,7 @@ a {
 .header {
     width: 100vw;
     height: 100vh;
-    background: url("../image/desktop_compettor.png") 50% / cover;
+    background: url("../image/desktop_compettor.png") 50% center / cover;
 }
 
 .header__body {
@@ -50,9 +50,8 @@ a {
     font-weight: 400;
     max-width: 325px;
     text-align: start;
+    font-family: Quicksand, sans-serif;
     margin: 0px auto;
-    font-family: 'Quicksand', sans-serif;
-    margin: 0 auto;
 }
 
 .header__body_text h2 {
@@ -61,6 +60,7 @@ a {
     margin: 0px auto;
     width: 293px;
     text-align: start;
+    padding-top: 20px;
 }
 
 .header__body_text h3 {
@@ -68,8 +68,9 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 22px;
-    margin: 0 auto;
+    margin: 0px auto;
     max-width: 200px;
+    text-decoration: underline;
 }
 
 .header__body_text h4 {
@@ -144,7 +145,6 @@ a {
 
 .header_button {
     width: 300px;
-    margin-top: 35px;
     background: rgb(222, 101, 138);
     border: none;
     font-size: 22px;
@@ -184,9 +184,6 @@ a {
     filter: blur(5px);
 }
 
-
-/* ADVANTAGES */
-
 .advantages {
     height: auto;
     padding-bottom: 50px;
@@ -194,7 +191,7 @@ a {
 
 .adv__body {
     width: 60%;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .adv__list_header {
@@ -207,18 +204,18 @@ a {
 }
 
 .list_vs {
-    width: 30px !important;
     height: 19px;
     margin-top: 20px;
+    width: 30px !important;
 }
 
 .hidden_button_text {
-    width: 150px !important;
-    background: transparent !important;
-    color: black !important;
     border: none;
     cursor: pointer;
     font-size: 16px;
+    width: 150px !important;
+    background: transparent !important;
+    color: black !important;
 }
 
 .hidden_button_text i {
@@ -232,7 +229,7 @@ a {
 
 .hiddend__text button {
     margin-bottom: 30px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Quicksand, sans-serif;
 }
 
 .hidden_text_content {
@@ -241,18 +238,18 @@ a {
 
 .hiddend_text_cont {
     margin-top: 20px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Quicksand, sans-serif;
 }
 
 .hidden_text_title {
-    font-family: 'Quicksand', sans-serif;
+    font-family: Quicksand, sans-serif;
     margin-top: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
 .hiddend_text_desc {
-    font-family: 'Quicksand', sans-serif;
+    font-family: Quicksand, sans-serif;
 }
 
 .adv__list_header img {
@@ -291,9 +288,10 @@ a {
 }
 
 .adv__item_desc {
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 300;
+    font-size: 14px;
     width: 100%;
+    font-family: Quicksand, sans-serif;
 }
 
 .adv__item_text {
@@ -366,7 +364,7 @@ a {
 }
 
 .spoiler_text p {
-    font-size: 13px;
+    font-size: 16px;
     padding-left: 30px;
     font-weight: 300;
     max-width: 100%;
@@ -376,6 +374,7 @@ a {
 
 .spoiler_text span {
     font-weight: 700;
+    font-family: Poppins, sans-serif !important;
 }
 
 .spoiler_list {
@@ -408,10 +407,9 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0px auto;
+    margin: 0px auto 20px;
     max-width: 630px;
     overflow: hidden;
-    margin-bottom: 20px;
 }
 
 .popular_block {
@@ -467,9 +465,6 @@ a {
     line-height: 1;
 }
 
-
-/* TEXT */
-
 .text {
     padding-bottom: 5vh;
     padding-top: 80px;
@@ -478,61 +473,61 @@ a {
 }
 
 .text__body_title {
-    font-family: 'Teko', sans-serif;
+    font-family: Teko, sans-serif;
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .text__body_desc {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
     line-height: 30px;
-    font-weight: 500;
+    font-weight: 300;
     color: rgb(48, 48, 48);
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .comparison {
-    margin: 0 auto;
-    width: 75%;
+    margin: 0px auto;
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
 
 .comparison_block {
-    width: 130px;
+    width: 120px;
     text-align: center;
 }
 
 .comparison_icon {
-    width: 50px;
-    margin-bottom: 10px;
+    width: 30px;
 }
 
 .comparison_logo_1 {
-    width: 130px;
+    width: 90px;
 }
 
 .comparison_logo_2 {
-    width: 140px;
+    width: 100px;
 }
 
 .signup_block h1 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: Poppins, sans-serif;
     text-align: center;
-    max-width: 374px;
-    margin: 0 auto;
-    font-size: 20px;
+    max-width: 320px;
+    margin: 0px auto;
+    font-size: 16px;
     font-weight: 300;
 }
 
 .signup_block p {
-    font-family: 'Quicksand', sans-serif;
+    font-family: Poppins, sans-serif;
     text-align: center;
-    max-width: 370px;
-    margin: 0 auto;
-    font-size: 20px;
+    max-width: 300px;
+    margin: 0px auto;
+    font-size: 16px;
     font-weight: 600;
     text-decoration: underline;
     line-height: 20px;
@@ -587,7 +582,6 @@ a {
     height: auto;
     padding-bottom: 20vh;
     background-repeat: no-repeat;
-    /* margin-top: 50px; */
 }
 
 .footer__body {
@@ -806,19 +800,19 @@ a {
 }
 
 .signup_block {
-    max-width: 680px;
-    margin: 0 auto;
+    max-width: 441px;
+    margin: 0px auto;
 }
 
 .comparison_main_photo {
-    width: 720px;
+    width: 472px;
 }
 
 .signup_list {
     display: flex;
     justify-content: space-between;
     max-width: 325px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 @media (max-width: 1740px) {
@@ -1125,12 +1119,12 @@ a {
         padding-left: 20px;
         padding-right: 20px;
         max-width: 400px;
-        margin: 0 auto;
+        margin: 0px auto;
         font-size: 40px;
     }
     .signup_block {
         max-width: 478px;
-        margin: 0 auto;
+        margin: 0px auto;
     }
     .comparison_main_photo {
         width: 500px;
@@ -1364,11 +1358,11 @@ a {
     }
     .header__body_text h1 {
         max-width: 280px;
-        margin: 0 auto;
+        margin: 0px auto;
         font-size: 33px;
     }
     .comparison_main_photo {
-        width: 400px;
+        width: 470px;
     }
 }
 
@@ -1394,8 +1388,8 @@ a {
         margin-top: 51px;
     }
     .signup_block {
-        max-width: 400px;
-        margin: 0 auto;
+        max-width: 370px;
+        margin: 0px auto;
     }
     .signup_block h3 {
         font-size: 35px;
@@ -1409,6 +1403,9 @@ a {
     }
     .comparison_logo_2 {
         width: 110px;
+    }
+    .advantages {
+        padding-top: 70px;
     }
 }
 
@@ -1528,7 +1525,7 @@ a {
         padding-top: 25px;
     }
     .comparison_main_photo {
-        width: 400px;
+        width: 370px;
     }
 }
 
